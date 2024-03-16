@@ -1,0 +1,53 @@
+
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 300px; /* Largura do container para alinhar com os campos */
+  margin: auto; /* Centraliza o container na página */
+}
+
+.form__container h2 {
+  margin-bottom: 30px; /* Espaço entre o h2 e os campos de formulário */
+  font-size: 30px;
+  width: 100%; /* Faz o h2 ocupar a largura total do container */
+  text-align: center; /* Centraliza o texto do h2 */
+  margin-right: 20px;
+  color:blueviolet;
+  font-weight: bolder;
+}
+.form__container label{
+  font-weight: bolder;
+  color: black;
+}
+
+.form__container input[type="text"],
+.form__container input[type="password"],
+.form__container input[type="submit"] {
+  width: 250px; /* Faz os campos ocuparem a largura total do container */
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+
+body {
+  /* A imagem usada */
+  background-image: url('imagemwebpage/hhyttr\ 1.jpg');
+
+  /* Altura total */
+  height: 100%;
+
+  /* Centraliza e dimensiona a imagem corretamente */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html {
+  /* Certifique-se de que a imagem cubra a tela inteira */
+  height: 100%;
+}
